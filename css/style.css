@@ -1,0 +1,131 @@
+.history {
+  padding: 80px 0;
+  background-image: url(../images/about-bg-2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.history h1 {
+  color: #f26722;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 60px;
+}
+.history .history-carousel .carousel-button {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 60px;
+  color: #f26722;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid;
+  font-size: 30px;
+  transition: 0.6s;
+}
+.history .history-carousel .carousel-button:hover {
+  background-color: #f26722;
+  color: #fff;
+  border-color: #f26722;
+}
+.history .history-carousel .text-carousel {
+  position: relative;
+  width: 80%;
+  height: 290px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.history .history-carousel .text-carousel .carousel-container .carousel-track {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  transition: transform 0.6s ease-in-out;
+}
+.history .history-carousel .text-carousel .carousel-container .carousel-track .item {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.history .history-carousel .text-carousel .carousel-container .carousel-track .item h2 {
+  color: #f26722;
+  font-weight: bold;
+  font-size: 55px;
+}
+.history .history-carousel .text-carousel .carousel-container .carousel-track .item h5 {
+  font-weight: bold;
+}
+.history .history-carousel .text-carousel .carousel-container .carousel-track .item p {
+  opacity: 0.7;
+}
+.history .brake {
+  position: relative;
+  height: 500px;
+}
+.history .brake .rotor {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: 0.5s;
+  transform-origin: 50% 55%;
+}
+.history .brake .rotor img {
+  width: 100%;
+}
+.history .brake .support {
+  height: 100%;
+  width: 100%;
+}
+.history .brake .support img {
+  width: 100%;
+}
+.history .brake .carousel-dots {
+  display: flex;
+  justify-content: space-around;
+}
+.history .brake .carousel-dots .carousel-indecator {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #713a97;
+  transition: all 0.6s;
+  position: absolute;
+}
+.history .brake .carousel-dots .carousel-indecator:first-of-type {
+  top: 180px;
+  left: 25px;
+}
+.history .brake .carousel-dots .carousel-indecator:nth-of-type(2) {
+  top: 260px;
+  left: 15px;
+}
+.history .brake .carousel-dots .carousel-indecator:nth-child(3) {
+  top: 340px;
+  left: 33px;
+}
+.history .brake .carousel-dots .carousel-indecator:nth-child(4) {
+  top: 410px;
+  left: 77px;
+}
+.history .brake .carousel-dots .carousel-indecator:nth-child(5) {
+  top: 458px;
+  left: 140px;
+}
+.history .brake .carousel-dots .carousel-indecator:nth-child(6) {
+  top: 485px;
+  left: 220px;
+}
+.history .brake .carousel-dots .carousel-indecator:nth-child(7) {
+  top: 480px;
+  left: 305px;
+}
+.history .brake .carousel-dots .carousel-indecator.active, .history .brake .carousel-dots .carousel-indecator:hover {
+  background-color: #f26722;
+}
+
+/*# sourceMappingURL=style.css.map */
